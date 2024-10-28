@@ -15,3 +15,6 @@ class PersegiPanjang:
     if _name_ == "_main_":
         persegi = PersegiPanjang(3, 2)
 
+    print(persegi)  
+    print(f"Keliling: {persegi.hitung_keliling()} cm")  
+    print(f"Luas: {persegi.hitung_luas()} cm")  

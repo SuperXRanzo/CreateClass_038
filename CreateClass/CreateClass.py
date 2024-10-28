@@ -8,3 +8,6 @@ class PersegiPanjang:
 
     def hitung_luas(self):
         return self.panjang * self.lebar
+
+    def _str_(self):
+        return f"Persegi Panjang, Panjang {self.panjang} cm, dan Lebar {self.lebar} cm"

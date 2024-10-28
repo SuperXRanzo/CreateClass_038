@@ -11,3 +11,7 @@ class PersegiPanjang:
 
     def _str_(self):
         return f"Persegi Panjang, Panjang {self.panjang} cm, dan Lebar {self.lebar} cm"
+
+    if _name_ == "_main_":
+        persegi = PersegiPanjang(3, 2)
+
